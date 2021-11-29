@@ -1,0 +1,7 @@
+version = 0.1
+
+[default.deploy.parameters]
+stack_name = "mental-health-bot"
+region = "ap-southeast-1"
+image_repository = "612793934435.dkr.ecr.ap-southeast-1.amazonaws.com/mental-health-lambda"
+capabilities = "CAPABILITY_IAM"
